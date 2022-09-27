@@ -1,0 +1,38 @@
+Sheela has three things in her bag. She wants to compute the area of 3 things but 3 things are in different shapes. The three things are in square shape, rectangular shape, and circular shape respectively. Write a program to help Sheela to calculate the area of different shapes. 
+
+Input format: 
+
+First input: a side of a square in integer 
+
+Second input: length of a rectangle in integer 
+
+Third input: breadth of a rectangle in integer 
+
+Fourth input: radius of a circle in float 
+
+Output format: 
+
+The first output should be the area of a square in integer 
+The second output should be the area of a rectangle in integer 
+The third output should be the area of a circle in float with 2 decimal places
+
+Sample Input: 
+
+5
+5
+4
+2.0
+
+CODE:
+
+a=int(input("enter the side of square:"))
+b=int(input("enter the length of rectangle"))
+c=int(input("enter breadth of rectangle:"))
+d=float(input("enter radius of circle"))
+area_s=(a*a)
+area_r=(b*c)
+area_c=(3.14*d*d)
+print("area_s=",area_s)
+print("area_r=",area_r)
+print("area_c=%.2f"%area_c)
+
