@@ -1,0 +1,13 @@
+you have given an  integer.your task is to count the number of 1's in the binary represenation of the integer.
+
+n = int(input())
+l=[]
+while n>0:
+    a=n%2
+    l.append(a)
+    n=n//2
+print(l.count(1))
+
+output:
+11
+3
